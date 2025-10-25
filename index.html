@@ -10,6 +10,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
+
       .hind-madurai {
   font-family: "Hind Madurai", sans-serif;
   font-style: normal;
@@ -32,12 +33,13 @@
           <img class="h-[50px] w-cover" src="./assets/logo.png" alt="">
           <p class="inter text-[#006747] font-bold">Emergency <br>Service</b></p>
         </div>
+
         <div class="sm:flex gap-[10px] grid ">
-          <div class="bg-[#87FFA1] flex h-[50px] w-[120px] rounded-[50px] justify-center items-center gap-[5px]">
+          <div class="bg-[#87FFA1]/50 flex h-[50px] w-[120px] rounded-[50px] justify-center items-center gap-[5px]">
             <div class="font-bold">0</div>
             <div><img class="h-[30px]" src="./assets/heart.png" alt=""></div>
           </div>
-          <div class="bg-[#87FFA1] flex h-[50px] w-[120px] rounded-[50px] justify-center items-center gap-[5px]">
+          <div class="bg-[#87FFA1]/50 flex h-[50px] w-[120px] rounded-[50px] justify-center items-center gap-[5px]">
             <div class="font-bold">100</div>
             <div><img class="h-[30px]" src="./assets/coin.png" alt=""></div>
           </div>
@@ -46,17 +48,229 @@
           </div>
         </div>
       </nav>
+
       <nav class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-[20px] grid text-center">
         <img class="h-[90px] mx-auto" src="./assets/logo-dark.png" alt=""><
         <p class="hind-madurai text-white text-[25px] font-bold">Emergency Service Directory</p>
         <p class="hind-madurai text-white text-[13px]">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
       </nav>
     </header>
-    <main>
+    <main class="bg-[#87FFA1]/25 p-[30px] sm:flex sm:justify-center sm:gap-[30px]">
+      <div class="sm:grid sm:grid-cols-3 gap-[20px] rounded-[12px]">
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/emergency.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">National Emergency Number</p>
+            <p class="text-[13px] text-gray-700">National Emergency</p>
+            <p class="font-bold text-[20px] mt-[4px]">999</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[30px] rounded-[9999px] text-center my-[10px]">All</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[11.25rem] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[11.25rem] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/police.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Police Helpline Number</p>
+            <p class="text-[13px] text-gray-700">Police</p>
+            <p class="font-bold text-[20px] mt-[4px]">999</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[50px] rounded-[9999px] text-center my-[10px]">Police</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/fire-service.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Fire Service Number</p>
+            <p class="text-[13px] text-gray-700">Fire Service</p>
+            <p class="font-bold text-[20px] mt-[4px]">999</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[35px] rounded-[9999px] text-center my-[10px]">Fire</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/ambulance.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Ambulance Service</p>
+            <p class="text-[13px] text-gray-700">Ambulance</p>
+            <p class="font-bold text-[20px] mt-[4px]">1994-999999</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[55px] rounded-[9999px] text-center my-[10px]">Health</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/emergency.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Women & Child Helpline</p>
+            <p class="text-[13px] text-gray-700">Women & Child Helpline</p>
+            <p class="font-bold text-[20px] mt-[4px]">109</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[38px] rounded-[9999px] text-center my-[10px]">Help</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/emergency.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Anti-Corruption Helpline</p>
+            <p class="text-[13px] text-gray-700">Anti-Corruption</p>
+            <p class="font-bold text-[20px] mt-[4px]">106</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[38px] rounded-[9999px] text-center my-[10px]">Govt.</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/emergency.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Electricity Helpline</p>
+            <p class="text-[13px] text-gray-700">Electricity Outage</p>
+            <p class="font-bold text-[20px] mt-[4px]">16216</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[75px] rounded-[9999px] text-center my-[10px]">Electricity</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/emergency.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Brac Helpline</p>
+            <p class="text-[13px] text-gray-700">Brac</p>
+            <p class="font-bold text-[20px] mt-[4px]">16445</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[45px] rounded-[9999px] text-center my-[10px]">NGO</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+        <div class="p-[20px] hind-madurai bg-white w-cover rounded-[12px] shadow-md">
+          <div class="flex justify-between items-center">
+            <div class="bg-gray-200 w-[40px] h-[40px] rounded-[14px] flex items-center"><img class="mx-auto h-[22px]" src="./assets/emergency.png" alt=""></div>
+            <img class="h-[20px] w-cover" src="./assets/heart-icon.png" alt="">
+          </div>
+          <div>
+            <p class="font-bold">Bangladesh Railway Helpline </p>
+            <p class="text-[13px] text-gray-700">Bangladesh Railway</p>
+            <p class="font-bold text-[20px] mt-[4px]">163</p>
+            <div class="text-gray-700 bg-gray-100 text-[13px] w-[50px] rounded-[9999px] text-center my-[10px]">Travel</div>
+          </div>
+          <div class="flex gap-[4px]">
+            <button class="flex justify-center gap-[2px] text-gray-600 w-[180px] border-[1px] rounded-[6px] h-[25px]">
+              <img src="./assets/copy.png" alt="">
+              <p>Copy</p>
+            </button>
+            <button class="flex justify-center gap-[2px] text-white bg-[#00A63E] w-[180px] rounded-[6px] h-[25px]">
+              <img src="./assets/call.png" alt="">
+              <p>Call</p>
+            </button>
+          </div>
+        </div>
+      </div>
 
+      <div class="w-cover hind-madurai bg-white p-[20px] rounded-[12px] shadow-md mt-[20px] sm:mt-[0px]">
+        <div class="flex justify-between items-center gap-[100px]">
+          <div class="flex gap-[5px]">
+            <img class="h-[20px] w-cover" src="./assets/history.png" alt="">
+            <div class="font-bold">Call History</div>
+          </div>
+          <button class="h-[30px] w-[120px] flex justify-center items-center
+          gap-[2px] text-white bg-[#00A63E] rounded-[50px]">Clear</button>
+        </div>
+
+        <div>
+
+        </div>
+      </div>
     </main>
-    <footer>
-
-    </footer>
   </body>
 </html>
